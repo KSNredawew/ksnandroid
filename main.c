@@ -28,7 +28,6 @@ int main(int argc, char* argv[]) {
 
     const char* firmware_path = "assets/firmware/";
     run_ui_loop(firmware_path);
-
     cleanup_emulator();
     cleanup_video();
     cleanup_audio();
