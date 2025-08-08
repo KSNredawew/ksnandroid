@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
         return -1;
     }
 
-    const char* firmware_path = "assets/firmware/";
+    const char* firmware_path = "assets\\firmware\\";
     run_ui_loop(firmware_path);
     cleanup_emulator();
     cleanup_video();

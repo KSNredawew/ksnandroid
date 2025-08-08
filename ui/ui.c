@@ -73,7 +73,7 @@ void run_ui_loop(const char* firmware_path) {
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
 
-        // Отрисовка кнопок
+        // Render buttons
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
         SDL_RenderFillRect(renderer, &old_device_button);
         SDL_SetRenderDrawColor(renderer, 200, 200, 255, 255);
